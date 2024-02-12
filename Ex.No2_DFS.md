@@ -13,6 +13,7 @@ To write a python program to implement Depth first Search.
 7. Stop the program.
 ### Program:
 ```
+# Depth first search in python
 # Using a Python dictionary to act as an adjacency list
 graph = {
   '5' : ['3','7'],
