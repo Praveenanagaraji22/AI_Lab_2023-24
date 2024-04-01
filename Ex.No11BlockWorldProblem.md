@@ -1,9 +1,8 @@
 # Ex.No: 11  Planning –  Block World Problem 
-### DATE: 01/04/2024                                                                           
+### DATE:  01/04/2024                                                                           
 ### REGISTER NUMBER : 212222040122
 ### AIM: 
 To find the sequence of plan for Block word problem using PDDL 
-
 ###  Algorithm:
 Step 1 :  Start the program <br>
 Step 2 : Create a domain for Block world Problem <br>
@@ -15,7 +14,6 @@ Step 7 : In un-stack action, Robot arm pick the block on some block. Preconditio
 Step 8 : In stack action, Robot arm place the block on under block. Precondition is Block holded by robot arm and no other block on under block.<br>
 Step 9 : Define a problem for block world problem.<br> 
 Step 10 : Obtain the plan for given problem.<br> 
-     
 ### Program:
 ```
 (define (domain blocksworld)
@@ -57,7 +55,6 @@ Problem 1: Problem.pddl
    (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty))
    (:goal (and (on a b))))
 ```
-
 ### Output/Plan:
 ![318405715-bf683d82-e49a-4699-a8b9-770827808dc2](https://github.com/Praveenanagaraji22/AI_Lab_2023-24/assets/119393514/74011f9e-8c31-4896-8f0d-ae1d1cc37d72)
 
@@ -71,7 +68,6 @@ Problem 2: Problem2.pddl
 	          (clear a)  (clear b) (clear c) (arm-empty))
 	   (:goal (and (on a b) (on b c))))
 ```
-
 ### Output/Plan:
 ![318405933-6ea553ef-34d2-492d-abca-1da3eeaaefab1](https://github.com/Praveenanagaraji22/AI_Lab_2023-24/assets/119393514/5c8e2b68-4b7a-4d0c-912d-256dae9db4e3)
 
