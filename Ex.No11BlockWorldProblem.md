@@ -45,7 +45,6 @@ Step 10 : Obtain the plan for given problem.<br>
                (not (on
 ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
 ```
-
 ### Input 
 Problem 1: Problem.pddl
 ```
@@ -57,7 +56,6 @@ Problem 1: Problem.pddl
 ```
 ### Output/Plan:
 ![318405715-bf683d82-e49a-4699-a8b9-770827808dc2](https://github.com/Praveenanagaraji22/AI_Lab_2023-24/assets/119393514/74011f9e-8c31-4896-8f0d-ae1d1cc37d72)
-
 ### Input
 Problem 2: Problem2.pddl
 ```
@@ -70,6 +68,5 @@ Problem 2: Problem2.pddl
 ```
 ### Output/Plan:
 ![318405933-6ea553ef-34d2-492d-abca-1da3eeaaefab1](https://github.com/Praveenanagaraji22/AI_Lab_2023-24/assets/119393514/5c8e2b68-4b7a-4d0c-912d-256dae9db4e3)
-
 ### Result:
 Thus the plan was found for the initial and goal state of block world problem.
